@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<!-- InstanceBegin template="/Templates/tankmuseum_template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<title>TANK MUSEUM</title>
+<link href="../styles/style.css" rel="stylesheet" type="text/css">
+<link rel="icon" type="image/png" href="../images/tank-icon.jpg"/>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+<body onLoad="MM_preloadImages('../images/1.1.jpg','../images/2.1.jpg','../images/3.1.jpg')">
+<div class="container">
+  <header>
+    <div class="primary_header">
+      <h1 class="title">TANK MUSEUM</h1>
+    </div>
+    <nav class="secondary_header">
+      <ul>
+        <li><a href="contact.html">CONTACT</a></li>
+        <li style=" width: 1%;" >/</li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li style=" width: 1%;">/</li>
+        <li style=" color: #FF0004;"><a href="../index.html">HOME</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="dropdown">
+    <button onclick="mainmenu()" class="dropbtn">Main Menu</button>
+    <div id="menuDropdown" class="dropdown-content"> <a href="events.html">UPCOMMING EVENTS</a> <a href="history.html">TANKS HISTORY</a> <a href="display.html">TANKS ON DISPLAY</a> </div>
+  </div>
+  <!-- InstanceBeginEditable name="MainSectionContent" -->
+  <section>
+    <h2 class="noDisplay">Main Content</h2>
+    <article class="left_article" style="float: none;">
+      <h3>Our Tanks on Display</h3>
+    </article>
+    <div style="column-count: 3; font-family:Courier New; color: #717070;">
+      <ol>
+        <li>Magach 7&nbsp;
+          <div> <img src="../images/1.jpg" alt="Magach 7 tank" width="250" height="150px" id="one" onMouseOver="MM_swapImage('one','','../images/1.1.jpg',1)" onMouseOut="MM_swapImgRestore()"/> </div>
+        </li><br/><br/>
+        <li>A39 Tortoise&nbsp;
+          <div> <img src="../images/2.jpg" alt="A39 Tortoise tank" width="250" height="150px" id="two" onMouseOver="MM_swapImage('two','','../images/2.1.jpg',1)" onMouseOut="MM_swapImgRestore()"/> </div>
+        </li><br/><br/>
+        <li>T44 tank&nbsp;
+          <div> <img src="../images/3.jpg" alt="T44 tank" width="250" height="150" id="three" onMouseOver="MM_swapImage('three','','../images/3.1.jpg',1)" onMouseOut="MM_swapImgRestore()"/></div>
+        </li><br/><br/>
+        <li>Tiger H1&nbsp;
+          <div> <img src="../images/4.jpg" alt="Tiger H1" width="250" height="150" id="four" onMouseOver="MM_swapImage('four','','../images/4.1.jpg',1)" onMouseOut="MM_swapImgRestore()"/></div>
+        </li><br/><br/>
+        <li>American Sherman&nbsp;
+          <div> <img src="../images/5.jpg" alt="American Sherman" width="250" height="150" id="five" onMouseOver="MM_swapImage('five','','../images/5.1.jpg',1)" onMouseOut="MM_swapImgRestore()"/></div>
+        </li><br/><br/>
+        <li>Russian IS 6&nbsp;
+          <div> <img src="../images/6.jpg" alt="Russian IS 6" width="250" height="150" id="six" onMouseOver="MM_swapImage('six','','../images/6.1.jpg',1)" onMouseOut="MM_swapImgRestore()"/></div>
+        </li><br/><br/>
+      </ol>
+    </div>
+  </section>
+  <!-- InstanceEndEditable -->
+  <footer class="secondary_header footer">
+    <div class="copyright">&copy;2018 - Tank Museum</div>
+  </footer>
+</div>
+<script src="../scripts/javascript.js"></script>
+</body>
+<!-- InstanceEnd -->
+</html>

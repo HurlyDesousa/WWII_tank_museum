@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>TANK MUSEUM</title>
+<link href="../styles/style.css" rel="stylesheet" type="text/css">
+<link rel="icon" type="image/png" href="../images/tank-icon.jpg"/>
+
+</head>
+<body>
+<div class="container">
+  <header>
+    <div class="primary_header">
+      <h1 class="title">TANK MUSEUM</h1>
+    </div>
+    <nav class="secondary_header">
+      <ul>
+        <li><a href="../pages/contact.html">CONTACT</a></li>
+        <li style=" width: 1%;" >/</li>
+		<li><a href="../pages/about.html">ABOUT</a></li>
+        <li style=" width: 1%;">/</li>
+        <li style=" color: #FF0004;"><a href="../index.html">HOME</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="dropdown">
+    <button onclick="mainmenu()" class="dropbtn">Main Menu</button>
+    <div id="menuDropdown" class="dropdown-content"> 
+		<a href="../pages/events.html">UPCOMMING EVENTS</a> 
+		<a href="../pages/history.html">TANKS HISTORY</a> 
+		<a href="../pages/display.html">TANKS ON DISPLAY</a> 
+	</div>
+  </div>
+  <!-- TemplateBeginEditable name="MainSectionContent" -->
+  <section>
+    <h2 class="noDisplay">Main Content</h2>
+    <article class="left_article">
+      <h3>Welcome to the Tank Museum!</h3>
+      <p>Tanks were an important weapons system in World War II. Even though tanks in the inter-war years were the subject of widespread research, production was limited to relatively small numbers in a few countries. However, during World War II most armies employed tanks, and production levels reached thousands each month. Tank usage, doctrine and production varied widely among the combatant nations. By war's end, a consensus was emerging regarding tank doctrine and design.</p>
+      <p>Tanks were adapted to a wide range of military tasks, including engineering. Specialized models, such as flame-thrower tanks, armored recovery vehicles for towing disabled tanks from the battlefield, and command tanks with extra radios were also used. All major combatant powers also developed tank destroyers and assault guns, as armored vehicles carrying large-caliber guns, but often no turrets. Turreted vehicles are expensive to manufacture compared to non-turreted vehicles.</p>
+    </article>
+    <aside class="right_article">
+    <div class="w3-content w3-section" style="max-width:500px"> <img class="mySlides" src="images/ch.jpg" alt="Churchill Tank" style="width:100%"> <img class="mySlides" src="images/kv1.jpg" alt="KV 1 Tank" style="width:100%"> <img class="mySlides" src="images/m4.jpg" alt="M4 Tank" style="width:100%"> <img class="mySlides" src="images/stug.jpg" alt="Stug III Tank" style="width:100%"> <img class="mySlides" src="images/t34.jpg" alt="T34 Tank" style="width:100%"> <img class="mySlides" src="images/tg2.jpg" alt="Churchill Tank" style="width:100%"> 
+	</div>
+    </aside>
+  </section>
+  <!-- TemplateEndEditable -->
+  <footer class="secondary_header footer">
+    <div class="copyright">&copy;2018 - Tank Museum</div>
+  </footer>
+</div>	
+<script src="../scripts/javascript.js"></script>
+</body>
+</html>
